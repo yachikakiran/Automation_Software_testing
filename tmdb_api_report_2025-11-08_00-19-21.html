@@ -1,0 +1,15 @@
+<html><head>
+<title>TMDB API Test Report</title>
+<style>
+body {font-family: Arial; background:#f8f9fa; padding:20px;}
+table {border-collapse: collapse; width:100%;}
+th, td {border:1px solid #ccc; padding:8px; text-align:left;}
+th {background:#007bff; color:white;}
+tr:nth-child(even){background:#f2f2f2;}
+.status-pass {color:green;}
+.status-fail {color:red;}
+</style></head><body>
+<h2>TMDB API Test Report</h2>
+<table>
+<tr><th>Test Name</th><th>Status</th><th>Details</th></tr>
+<tr><td>API Key Validity</td><td class='status-pass'>✅ PASS</td><td>Status Code: 200</td></tr><tr><td>test_search_movie</td><td class='status-fail'>❌ FAIL</td><td>('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))</td></tr><tr><td>Get Movie Details - ID 27205</td><td class='status-pass'>✅ PASS</td><td>Title: Inception</td></tr><tr><td>Poster Fetch - Inception</td><td class='status-pass'>✅ PASS</td><td>Poster URL: https://image.tmdb.org/t/p/w500/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg</td></tr></table></body></html>
